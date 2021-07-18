@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-image: url("images/background.jpg");
+  background-size: cover;
 }
 
 h1 {
@@ -8,7 +9,6 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
 }
 
 footer {
@@ -57,10 +57,10 @@ footer {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
-
+/* 
 .red {
   color: red;
-}
+} */
 
 .drum {
   outline: none;
@@ -69,7 +69,7 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #148caa;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
